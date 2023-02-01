@@ -1,0 +1,80 @@
+footer{
+    background-color: #0C1013;
+    color: #FFF;
+    padding: 80px 0 0 0;
+}
+.footer-detail , .footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-list{
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer-list .item{
+    width: max-content;
+    margin: 10px 20px;
+}
+.footer-logo img{
+    margin-top: 20px;
+    width: 9rem;
+    height: 2.5rem;
+}
+footer .item .title{
+    font-weight: 700;
+font-size: 1.2rem;
+line-height: 42px;
+/* or 150% */
+
+letter-spacing: -0.011em;
+}
+footer .item .item-l{
+    font-weight: 300;
+font-size: 0.85rem;
+line-height: 38px;
+/* or 158% */
+
+letter-spacing: -0.011em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.line{
+    width: 2rem;
+    height: 2px;
+    border-bottom: #00D68A solid 3px;
+    margin: 10px 0;
+}
+.item-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+} .item-arrow span{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 10px;
+}
+.footer-final{
+    margin-top: 40px;
+
+}
+.footer-final-content{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    align-items: center;
+    
+}
+ .list-icon{
+    width: 40%;
+}
+ .list-icon i{
+    margin-right:  1rem ;
+    color: #828282;
+}
+.line-footer{
+    width: 100%;
+    border-bottom: #ffffff50 solid 1px;
+}

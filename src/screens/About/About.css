@@ -1,0 +1,201 @@
+.about ,.contact{
+  background-image: url("../../assets/2.png");
+  width: 100%;
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.about-content{
+    height: 100%;
+    padding-bottom: 80px;
+    color: #fff;
+    display: flex;
+   justify-content: flex-end;
+   font-family: 'Calibri';
+font-style: normal;
+    flex-direction: column;
+}
+.about-content .title{
+    font-weight: 700;
+font-size: 29px;
+margin: 15px 0;
+line-height: 42px;
+
+}
+.about-content .para{
+font-size: 23px;
+word-spacing: 6px;
+font-weight: 300;
+line-height: 44px;
+}
+.about .container{
+    height: 100%;
+
+}
+.about-text ,.overly{
+  background-image: linear-gradient(#ffffff40, #000);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.watch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+}
+.watch p {
+  padding-left: 20px;
+  font-size: 24   px;
+  font-weight: lighter;
+}
+.watch img{
+    width: 35px;
+}
+.home {
+  background-image: linear-gradient( #07D68B 0%,#000,#000,#000,#000 100%);
+  /*height: 100vh;
+  */transition: background-color 3s ease-in;
+ 
+}
+.animate {
+  width: 100%;
+  height: 10px;
+  z-index: 5;
+  background-color: #07D68B;
+  position: absolute;
+}
+/* .home{
+
+  background-color: #000;
+} */
+.home .content {
+  padding: 30px 0;
+}
+.home .content .text{
+  font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 34px;
+/* or 115% */
+width: 320px;
+
+text-align: justify;
+letter-spacing: -0.011em;
+
+color: #BBFFC2;
+}
+.home .content .img  {
+  width: 50%;
+  min-width: 350px;
+}
+.home .content .img img{
+  width: 100%;
+}
+.content .services .service{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.content .services .service .detail{
+  min-width: 350px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rate-content{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #fff; */
+  justify-content: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+.line-y{
+  width: 1px;
+  /* height: 90%; */
+  border: #555 solid 1px;
+  margin: 0 3rem 50px 3rem;
+}
+span{
+  color:#07D68B;
+}
+.title-list{
+  font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 25px;
+/* or 206% */
+color: #FFF;
+margin: 28px 0 140px 0;
+}
+.Rates{
+
+  width: 85%;
+  margin: 0 0 50px 0;
+}
+.text-rate{
+  font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* or 133% */
+width: 95%;
+color: #FFFFFF;
+}
+.Rates .num{
+  font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 62px;
+/* or 111% */
+
+
+color: #07D68B;
+
+}
+.line-x{
+  height: 1px;
+  background-color: #555;
+  margin: 15px 0;
+}
+.rate-content .list{
+  width: 330px;
+ 
+}
+.service .detail .title{
+  
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+/* or 115% */
+
+text-align: justify;
+letter-spacing: -0.011em;
+
+color: #07D68B;
+}
+.service .detail .text-detail{
+  font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 146% */
+
+word-spacing: 0.2rem;
+color: #FFFFFF;
+}
